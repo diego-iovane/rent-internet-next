@@ -6,7 +6,6 @@ Website developed with NextJS for [OnPrint Media](https://onprintmedia.ch/), usi
 
 Both design (Figma) and development by Diego Iovane
 
-## Getting Started
 
 Run the development server:
 
