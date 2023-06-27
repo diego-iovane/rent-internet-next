@@ -20,7 +20,7 @@ const Recharge = ({ content }) => {
                     <Inner>
                         <ImageSide>
                             <ImageContainer>
-                                <SideImage src={content.img.src} alt={content.img.alt} fill/>
+                                <SideImage src={content.img.src} alt={content.img.alt} fill sizes="50vw" />
                             </ImageContainer>
                         </ImageSide>
                         <Content>

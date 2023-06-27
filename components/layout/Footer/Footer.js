@@ -31,7 +31,7 @@ const Footer = () => {
         },
         {
             title: 'Contacto',
-            to: '/'
+            to: '/contact'
         },
     ]
 
@@ -57,8 +57,8 @@ const Footer = () => {
                         {
                             icons.map(icon => {
                                 return(
-                                    <IconContainer key={icon.url}>
-                                        <Icon src={icon.src} alt={icon.alt} fill />
+                                    <IconContainer key={icon.url} href={icon.url}>
+                                        <Icon src={icon.src} alt={icon.alt} fill sizes="15vw" />
                                     </IconContainer>
                                 )
                             })
@@ -67,7 +67,7 @@ const Footer = () => {
                 </InnerSection>
                 <InnerSection>
                     <LogoContainer>
-                        <LogoImage src={Lg} alt='logo' fill />
+                        <LogoImage src={Lg} alt='logo' fill sizes="15vw" />
                     </LogoContainer>
                 </InnerSection>
                 <InnerSection>

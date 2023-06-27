@@ -17,7 +17,7 @@ const Process = ({ content }) => {
             {
                 Object.entries(content).length !== 0 &&
                 <>
-                    <BackgroundImage src={content.backgroundImg} alt='' fill />
+                    <BackgroundImage src={content.backgroundImg} alt='' fill sizes='100vw'/>
                     <BackgroundOverlay />
                     <Inner>
                         <SectionTitle>{content.sectionTitle}</SectionTitle>

@@ -18,6 +18,7 @@ const nextConfig = {
       '/terms-conditions': { page: '/terms-conditions'},
       '/success': { page: '/success'},
       '/cancel': { page: '/cancel'},
+      '/contact': { page: '/contact'},
     }
   },
 }

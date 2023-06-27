@@ -15,7 +15,7 @@ const Details = ({ content }) => {
             {
                 Object.entries(content).length !== 0 &&
                 <>
-                    <BackgroundImage src={content.backgroundimage} alt='' fill />
+                    <BackgroundImage src={content.backgroundimage} alt='' fill sizes="100vw"/>
                     <BackgroundOverlay />
                     <Inner>
                         <Content>

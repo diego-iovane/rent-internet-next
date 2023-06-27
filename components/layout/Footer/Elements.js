@@ -73,7 +73,7 @@ export const SocialIcons = styled.ul`
     display: flex;
 `
 
-export const IconContainer = styled.li`
+export const IconContainer = styled.a`
     position: relative;
     width: 2rem;
     height: 2rem;

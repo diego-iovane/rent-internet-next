@@ -23,6 +23,7 @@ const Features = ({ content }) => {
                     src={item.src}
                     alt="featured icon"
                     fill
+                    sizes="33vw"
                   />
                 </IconImageContainer>
                 <Title>{item.title}</Title>

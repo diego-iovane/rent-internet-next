@@ -22,6 +22,7 @@ const SmallFeatures = ({ content }) => {
                                             src={icon.src}
                                             alt="featured icon"
                                             fill
+                                            sizes='20vw'
                                         />
                                     </IconImageContainer>
                                     <Text>{icon.description}</Text>
